@@ -8,6 +8,7 @@ for vidia jetson nano or an nvidia tx2
 ## steps
 1. please read build.sh
 1. in build.sh edit the username to be your username for docker
+1. $ chmod +x build.sh
 1. please run build.sh to build
 1. the build will not run
 1. feel free to try qemu arm emulation and buildx for compilation aid (i tried)
