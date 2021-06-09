@@ -7,12 +7,11 @@ for vidia jetson nano or an nvidia tx2
 
 ## steps
 1. please read go.sh
-
-1. in go.sh
-1. edit the username to be your username for docker
+1. in go.sh edit the username to be your username for docker
 1. please run go.sh to build
 1. the build will not run
-1. feel free to change the dockerfile and versions of the dependencies
+1. feel free to change the dockerfile, versions of the libraries, or the base (FROM) docker image
+1. feel free to change bring in prebuilt wheels and docker images for arm (ive tried)
 1. after building, please run the docker container on nvidia arm device
 1. ssh into docker container
 1. run model.py
